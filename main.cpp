@@ -100,7 +100,7 @@ int main()
     cout << "Absolute error   : " << error << endl;
 
     auto duration = chrono::duration_cast<chrono::milliseconds>(end - start);
-    cout << "Execution time   : " << duration.count() << " ms" << endl;
+    cout << "Execution time  : " << duration.count() << " ms" << endl;
 
     // ------------------------------
     // Check if target precision achieved
