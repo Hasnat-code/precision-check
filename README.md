@@ -1,5 +1,8 @@
 # Precision Check – High-Precision Numerical Integration in C++
 
+🔗 **Repository:**
+https://github.com/Hasnat-code/precision-check
+
 This project demonstrates a simple **high-precision numerical integration program in C++**.
 The goal is to compute an integral accurately while minimizing floating-point errors and ensuring **consistent results across multiple runs and machines**.
 
@@ -33,27 +36,25 @@ The program compares the **computed numerical result** with the **exact mathemat
 
 ## Key Concepts Demonstrated
 
-### 1. Numerical Integration
+### Numerical Integration
 
 The integral is approximated using the **rectangle method** with a large number of steps.
 
-### 2. Floating-Point Error
+### Floating-Point Error
 
 Repeated summation of floating-point numbers can introduce rounding errors.
 
-### 3. Kahan Summation Algorithm
+### Kahan Summation Algorithm
 
 The program uses **Kahan Summation** to compensate for floating-point rounding errors and improve numerical accuracy.
 
-### 4. Deterministic Computation
+### Deterministic Computation
 
 The program is designed to produce **consistent results for identical inputs**, helping explore reproducibility in numerical computing.
 
 ---
 
-## Program Output Example
-
-Example output from running the program:
+## Example Program Output
 
 ```
 Computed integral: 0.3333328333
@@ -74,7 +75,7 @@ This shows that the numerical result is **within the target precision threshold*
 3. Compute the area of each rectangle
 4. Sum all values using **Kahan Summation**
 5. Compare the result with the **exact analytical value**
-6. Measure **execution time**
+6. Measure execution time
 
 ---
 
@@ -99,8 +100,8 @@ g++ main.cpp -O2 -o precision-check
 ```
 precision-check
 │
-├── main.cpp      # C++ implementation
-└── README.md     # Project documentation
+├── main.cpp
+└── README.md
 ```
 
 ---
@@ -124,10 +125,10 @@ Techniques like **Kahan Summation** help maintain numerical reliability.
 
 Possible extensions for this project:
 
-* Implement **parallel reduction**
-* Compare **CPU vs GPU numerical differences**
-* Experiment with **different numerical integration methods**
-* Measure error growth with increasing iterations
+* Parallel implementation
+* CPU vs GPU numerical comparison
+* Different numerical integration techniques
+* Error analysis vs step size
 
 ---
 
@@ -139,4 +140,4 @@ Hasnat
 
 ## License
 
-This project is open source and available for educational purposes.
+Open for educational and learning purposes.
